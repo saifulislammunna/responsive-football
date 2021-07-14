@@ -8,8 +8,11 @@ body {
 /* top-bar style */
 .top-bar {
   background-color: #4267b2;
+  width: 1440px;
+  height: 677px;
   margin-bottom: 70px;
 }
+
 /* players style */
 .players {
   display: grid;
