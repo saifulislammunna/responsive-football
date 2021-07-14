@@ -21,3 +21,23 @@ body {
   color: #6c6c6c;
   font-size: 16px;
 }
+.bottom-part {
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  font-size: 18px;
+}
+.bottom-part img {
+  width: 483.87px;
+  height: 110px;
+}
+.media-info {
+  margin: 0px 14px;
+}
+.fa-instagram,
+.fa-twitter,
+.fa-youtube,
+.fa-facebook {
+  font-size: 32px;
+  color: #aeaeae;
+}
