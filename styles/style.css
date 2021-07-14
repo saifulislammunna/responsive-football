@@ -1,0 +1,23 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* common styles or utilities */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.player img {
+  width: 300px;
+  height: 256px;
+}
+.player-name {
+  color: #18191f;
+  font-size: 28px;
+}
+.player-info {
+  color: #6c6c6c;
+  font-size: 16px;
+}
