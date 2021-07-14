@@ -14,16 +14,21 @@ body {
   margin-bottom: 70px;
 }
 .heading {
-  font-size: 64px;
   color: #ffffff;
+  font-size: 50px;
+  font-weight: 500;
+  margin-left: 120px;
+  margin-top: 150px;
 }
 
 .stream {
   background-color: #e02c6d;
   width: 168px;
   height: 44px;
-  padding-bottom: 22px;
+  padding-bottom: 15px;
   padding-left: 30px;
+  margin-left: 122.99px;
+  margin-bottom: 150px;
 }
 .live {
   color: #ffffff;
