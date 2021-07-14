@@ -5,9 +5,22 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #ffffff;
 }
+/* top-bar style */
+.top-bar {
+  background-color: #4267b2;
+  margin-bottom: 70px;
+}
+/* players style */
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 165px;
+}
+.player {
+  width: 330px;
+  height: 474px;
+  left: 180px;
+  top: 747px;
 }
 .player img {
   width: 300px;
@@ -21,7 +34,9 @@ body {
   color: #6c6c6c;
   font-size: 16px;
 }
+/* bottom-part style */
 .bottom-part {
+  margin-bottom: 63px;
   align-items: center;
   text-align: center;
   color: #000000;
