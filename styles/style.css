@@ -127,10 +127,28 @@ body {
   align-items: center;
   margin: 0px 14px;
 }
-.fa-instagram,
-.fa-twitter,
-.fa-youtube,
-.fa-facebook {
+.fa-instagram .fa-twitter .fa-youtube .fa-facebook {
   font-size: 32px;
   color: #aeaeae;
+}
+/* -----------
+Media Queries 
+--------------*/
+/* Mobile Devices */
+@media only screen and(max-width:688px) {
+  .top-bar {
+    width: 100%;
+  }
+  .players.clubs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* tablet devices */
+@media only screen and(min-width:688px) and(max-width:992px) {
+  .top-bar {
+    width: 100%;
+  }
+  .playes .clubs {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
