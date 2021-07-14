@@ -34,6 +34,19 @@ body {
   color: #ffffff;
   padding: 10px 24px;
 }
+.banner {
+  width: 556.11px;
+  height: 439px;
+  margin-right: 80.99px;
+  margin-top: 153px;
+  transition: width 1s, height 1s, transform 1s;
+}
+.banner:hover {
+  width: 200px;
+  height: 200px;
+  transform: rotate(45deg);
+}
+
 .banner img {
   width: 556.01px;
   height: 438px;
