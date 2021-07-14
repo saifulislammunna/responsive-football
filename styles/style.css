@@ -8,8 +8,7 @@ body {
 /* top-bar style */
 .top-bar {
   background-color: #4267b2;
-  width: 1440px;
-  height: 677px;
+
   margin-bottom: 70px;
 }
 
@@ -17,6 +16,9 @@ body {
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  margin-left: 180px;
+  margin-right: 210px;
   margin-bottom: 165px;
 }
 .player {
@@ -29,6 +31,8 @@ body {
   width: 300px;
   height: 256px;
 }
+.player-detail {
+}
 .player-name {
   color: #18191f;
   font-size: 28px;
@@ -39,17 +43,19 @@ body {
 }
 /* bottom-part style */
 .bottom-part {
-  margin-bottom: 63px;
   align-items: center;
   text-align: center;
   color: #000000;
   font-size: 18px;
+  margin-bottom: 63px;
 }
 .bottom-part img {
   width: 483.87px;
   height: 110px;
 }
-.media-info {
+
+.social-media {
+  align-items: center;
   margin: 0px 14px;
 }
 .fa-instagram,
