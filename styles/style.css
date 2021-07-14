@@ -11,6 +11,18 @@ body {
 
   margin-bottom: 70px;
 }
+.heading {
+  font-size: 64px;
+  color: #ffffff;
+}
+.stream {
+  background-color: #e02c6d;
+  width: 168px;
+  height: 44px;
+}
+.fa-stream {
+  padding: 10px 24px;
+}
 
 /* players style */
 .players {
